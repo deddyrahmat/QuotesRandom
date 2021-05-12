@@ -8,7 +8,7 @@ body{
 
 .main{
     height: 100%;
-    background-color: #51c2d5;
+    background-color: #efeefe;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,14 +16,23 @@ body{
 
 .home {
     width: auto;
-    border: 2px solid #663f3f;
-    background-color: #bbf1fa;
+    background-color: #fff;
     height: auto;
     width: 600px;
     padding: 20px;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
+    /* shadow */
+    box-shadow: 0 0 5px #e4fbff,
+    0 0 7px #0000FF;
+}
+
+#title {
+    color: #7868e6;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
 #quotes {
@@ -42,26 +51,11 @@ body{
 }
 
 #click {
-    background-color: #00d6d6;
-    padding: 10px 30px;
-    border: 2px solid #663f3f;
+    background-color: #4e73de;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
     font-weight: bold;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
+    color: #fff;
     cursor: pointer;
-}
-
-#click:hover {
-    background-color: #3dfafa;
-    padding: 10px 30px;
-    border: 2px solid #a18282;
-    font-weight: bold;
-    border-radius: 5px;
-    color: rgb(32, 32, 32);
-    cursor: pointer;
-}
-
-#click:active {
-    background-color: #3dfafa;
-    border: 2px solid #a18282;
 }
