@@ -1,3 +1,4 @@
+// api random quotes
 const url = 'https://api.quotable.io/random';
 
 function handleQuotes(){
